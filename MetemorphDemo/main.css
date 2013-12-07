@@ -1,0 +1,25 @@
+﻿body {
+    font-family: 'Segoe UI', 'Helvetica Neue', 'sans-serif';
+    font-weight: 100;
+    color: white;
+}
+
+table {
+    width: 600px;
+}
+
+td,th {
+    padding: 1em;
+}
+
+th {
+    background-color: #A200FF;
+}
+
+td:first-child {
+    background-color: #1BA1E2;
+}
+
+td {
+    background-color: #FF0097;
+}

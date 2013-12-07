@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Metamorphs Rule</title>
+    <link href="main.css" rel="stylesheet" />
+</head>
+<body>
+    <script type="text/x-handlebars-template" id="template">
+        <table>
+            <thead>
+                <tr>
+                    <th>Index</th>
+                    <th>State</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#each rows}}
+                <tr>
+                    <td>{{@index}}</td>
+                    <td>
+                        &raquo;
+                        {{#mm-until-response time}}
+                        Waiting...
+                        {{else}}
+                        The server slept for {{result}} second{{#if plural}}s{{/if}} before returning.
+                        {{/mm-until-response}}
+                    </td>
+                </tr>
+                {{/each}}
+            </tbody>
+        </table>
+    </script>
+    <div id="output"></div>
+    <script src="Scripts/jquery-2.0.3.js"></script>
+    <script src="Scripts/handlebars-v1.1.2.js"></script>
+    <script src="Scripts/metamorph.js"></script>
+    <script src="Scripts/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+C:\Users\Richard\Source\Repos\MetemorphDemo\MetemorphDemo\bin\MetemorphDemo.dll.config
+C:\Users\Richard\Source\Repos\MetemorphDemo\MetemorphDemo\bin\MetemorphDemo.dll
+C:\Users\Richard\Source\Repos\MetemorphDemo\MetemorphDemo\bin\MetemorphDemo.pdb
+C:\Users\Richard\Source\Repos\MetemorphDemo\MetemorphDemo\bin\Newtonsoft.Json.dll
+C:\Users\Richard\Source\Repos\MetemorphDemo\MetemorphDemo\bin\System.Net.Http.Formatting.dll
+C:\Users\Richard\Source\Repos\MetemorphDemo\MetemorphDemo\bin\System.Web.Http.dll
+C:\Users\Richard\Source\Repos\MetemorphDemo\MetemorphDemo\bin\System.Web.Http.WebHost.dll
+C:\Users\Richard\Source\Repos\MetemorphDemo\MetemorphDemo\bin\Newtonsoft.Json.xml
+C:\Users\Richard\Source\Repos\MetemorphDemo\MetemorphDemo\bin\System.Net.Http.Formatting.xml
+C:\Users\Richard\Source\Repos\MetemorphDemo\MetemorphDemo\bin\System.Web.Http.xml
+C:\Users\Richard\Source\Repos\MetemorphDemo\MetemorphDemo\bin\System.Web.Http.WebHost.xml
+C:\Users\Richard\Source\Repos\MetemorphDemo\MetemorphDemo\obj\Debug\MetemorphDemo.csprojResolveAssemblyReference.cache
+C:\Users\Richard\Source\Repos\MetemorphDemo\MetemorphDemo\obj\Debug\MetemorphDemo.dll
+C:\Users\Richard\Source\Repos\MetemorphDemo\MetemorphDemo\obj\Debug\MetemorphDemo.pdb
