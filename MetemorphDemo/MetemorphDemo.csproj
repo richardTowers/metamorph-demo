@@ -78,6 +78,7 @@
     <Content Include="main.css" />
     <Content Include="Scripts\handlebars-v1.1.2.js" />
     <Content Include="Scripts\jquery-2.0.3.js" />
+    <Content Include="Scripts\main.js" />
     <Content Include="Scripts\metamorph.js" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -120,7 +121,7 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>True</UseIIS>
+          <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>61273</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
