@@ -2,10 +2,10 @@
 <html>
 <head>
     <title>Metamorphs Rule</title>
-    <link href="main.css" rel="stylesheet" />
+    <link href=main.css rel=stylesheet />
 </head>
 <body>
-    <script type="text/x-handlebars-template" id="template">
+    <script type=text/x-handlebars-template id=template>
         <table>
             <thead>
                 <tr>
@@ -30,10 +30,13 @@
             </tbody>
         </table>
     </script>
-    <div id="output"></div>
-    <script src="Scripts/jquery-2.0.3.js"></script>
-    <script src="Scripts/handlebars-v1.1.2.js"></script>
-    <script src="Scripts/metamorph.js"></script>
-    <script src="Scripts/main.js"></script>
+    <div class=js-handlebars-output
+         data-template-selector=#template
+         data-context='{"rows":[{"time":0},{"time":1},{"time":2},{"time":3},{"time":4},{"time":5},{"time":6},{"time":7}]}'>
+    </div>
+    <script src=Scripts/jquery-2.0.3.js></script>
+    <script src=Scripts/handlebars-v1.1.2.js></script>
+    <script src=Scripts/metamorph.js></script>
+    <script src=Scripts/main.js></script>
 </body>
 </html>

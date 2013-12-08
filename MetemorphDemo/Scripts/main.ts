@@ -15,24 +15,13 @@ Handlebars.registerHelper('mm-until-response', function (context, template) {
 });
 
 $(() => {
-    var input = $('#template').html();
-    var outputElement = $('#output');
-
-    var template = Handlebars.compile(input);
-
-    var result = template({
-        rows: [
-            { 'time': 0 },
-            { 'time': 1 },
-            { 'time': 2 },
-            { 'time': 3 },
-            { 'time': 4 },
-            { 'time': 5 },
-            { 'time': 6 },
-            { 'time': 7 }
-        ]
+    $('.js-handlebars-output').each((index, element) => {
+        var $element = $(element);
+        var templateSelector = $element.data('template-selector');
+        var templateSource = $(templateSelector).html();
+        var template = Handlebars.compile(templateSource);
+        var context = $element.data('context');
+        $element.html(template(context));
     });
-
-    outputElement.html(result);
 });
 
